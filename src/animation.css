@@ -1,0 +1,111 @@
+
+.move {
+   
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+    box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    animation: morphing 10s infinite;
+   border: 22px solid black;
+   height: 93vh;
+   width: 95vw;
+   position: absolute;
+   background-color: rgba(25, 0, 246, 0.1);
+}
+
+#one{
+  border-color: rgb(189, 0, 246);
+  animation-delay: 0;
+}
+#two{
+  border-color: rgb(246, 0, 152);
+  animation-delay: -2s;
+}
+#three{
+  border-color: rgb(0, 226, 246);
+  animation-delay: -4s;
+}
+
+#four{
+  border-color: rgb(25, 0, 246);
+  animation-delay: -6s;
+}
+
+#five{
+  border-color: rgb(0, 246, 172);
+  animation-delay: -8s;
+}
+.text{
+  text-align: center;
+  font-weight:900;
+  color: aliceblue;
+  font-size: 77px;
+  vertical-align: middle;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+
+  @-moz-keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
+  @-webkit-keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
+  @-o-keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
+  @keyframes morphing {
+    0% {
+      border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+      box-shadow: 15px 15px 50px rgba(0,0,0,0.2);
+    }
+    25% {
+      border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+    }
+    50% {
+      border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+      box-shadow: -10px -5px 50px rgba(0,0,0,0.2);
+    }
+    75% {
+      border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+    }
+  }
